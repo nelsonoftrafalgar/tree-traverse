@@ -17,6 +17,7 @@ export const Zoomable = ({ width, height, children }: Props) => {
 	}
 
 	return (
+		// @ts-expect-error just because
 		<Zoom
 			width={width}
 			height={height}
